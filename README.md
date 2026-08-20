@@ -1,29 +1,28 @@
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2500&pause=1000&color=F7B93C&center=true&vCenter=true&width=800&height=60&lines=Hi+there!+I'm+Vishakha+Khanna;Software+Engineer+%7C+Backend+%26+Systems;Go+%2B+Kafka+%2B+Distributed+Systems">
-</p>
+<h1 class="heading-element" dir="auto">Hey, I'm Vishakha Khanna 👋</h1>
 
-# Hi, I'm Vishakha Khanna 👋
+I'm a Software Engineer based in Gurugram, India. I currently work at Terrabridge Solutions, where I build features for a multi-service Document Management System and work across React.js and FastAPI. I'm most interested in backend and systems-level engineering — how data is stored, how sessions stay secure, how services stay consistent under load.
 
-Software engineer building backend infrastructure — event-sourced data stores, authentication systems, and caching layers. Full-stack capable, but I gravitate toward systems-level problems: how data is stored, how sessions stay secure, how services stay consistent under load.
+**What I Do**
 
-## 🔧 What I've Built
-- **[Kafka-backed Event-Sourced KV Store](https://github.com/vkhanna2004)** — persistent key-value store in Go using Kafka as a write-ahead log and RocksDB as the materialized store, with a RESP-compatible TCP server and crash recovery via checkpointed snapshots.
-- **[Centralized Identity Provider](https://github.com/vkhanna2004)** — headless OIDC/OAuth 2.0 IdP with RS256-signed tokens, JWT rotation, Redis-based token blacklisting, and brute-force protection with automated account lockouts.
+* Backend Systems: Building event-sourced data stores and auth infrastructure with strong consistency and recovery guarantees.
+* Full-Stack Engineering: Shipping features end-to-end with React.js, FastAPI, and Node.js.
+* Testing & Reliability: Setting up load and functional testing (JMeter, Katalon) to catch issues before production.
 
-## 🌱 Currently
-Deepening my backend and distributed systems engineering — event sourcing, caching strategies, and auth/session architecture.
+**Featured Projects**
 
-### Languages & Tools
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=go,js,ts,py,cpp,react,nodejs,express,fastapi,postgres,mongodb,redis,kafka,docker,git" alt="Tech Stack" />
-</p>
+* **[Centralized Identity Provider](https://github.com/vkhanna2004/Identity-Provider)**: A headless Identity Provider implementing OIDC/OAuth 2.0 with RS256-signed tokens for cross-application SSO. Handles JWT rotation with a Redis blacklist for instant revocation, Redis-based rate limiting against brute-force attacks, and automated account lockouts.
+* **[Kafka-backed Event-Sourced KV Store](https://github.com/vkhanna2004/Kafka_as_DB)**: A persistent key-value store in Go using Kafka as a write-ahead log and RocksDB as the materialized state store. Exposes a RESP-compatible TCP server, with checkpoint-based backups and crash recovery via Kafka offset restoration.
 
-![Leetcode Stats](https://leetcard.jacoblin.cool/vishakhakhanna?theme=dark&font=Noto%20Serif%20Georgian&ext=heatmap)
+**My Stack**
 
-### Connect with me
-<p align="left">
-<a href="https://x.com/Vkhanna2004" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="vkhanna2004" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/vishakha-khanna" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="vishakha-khanna" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/vishakhakhanna" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="vishakhakhanna" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/vish2004/profile" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="vish2004/profile" height="30" width="40" /></a>
-</p>
+* Languages: JavaScript, TypeScript, Python, Go, C++, SQL
+* Backend & Infra: Node.js, Express.js, FastAPI, REST APIs, WebSockets, RabbitMQ, Redis, Apache Kafka
+* Frontend: React.js, Angular 18, Redux Toolkit, Tailwind CSS
+* Databases & DevOps: PostgreSQL, MongoDB, RocksDB, Docker, GitHub Actions
+
+**Let's Connect**
+
+* LinkedIn: [Vishakha Khanna](https://linkedin.com/in/vishakha-khanna)
+* GitHub: [@vkhanna2004](https://github.com/vkhanna2004)
+* X: [@Vkhanna2004](https://x.com/Vkhanna2004)
+* Leetcode: [@vishakhakhanna](https://leetcode.com/u/vishakhakhanna/)
